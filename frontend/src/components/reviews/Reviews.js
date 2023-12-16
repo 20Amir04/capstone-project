@@ -69,7 +69,7 @@ function Reviews() {
 
     const order = async ({ number }) => {
         try {
-            const response = await axios.post("https://course-work-server.vercel.app/", {
+            const response = await axios.post("https://capstone-project-backend-kappa.vercel.app/", {
                 number,
             });
             setNumberActive(true);
