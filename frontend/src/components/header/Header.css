@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(0deg, #FFF 2.7%, rgba(255, 255, 255, 0.00) 94.11%), url("../../../public/images/image1.jpg"), lightgray 0px -9.806px / 101.714% 100.839% no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 1223px;
+    padding: 0 117px;
+}
+
+.header-title {
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    width: 1000px;
+    flex-shrink: 0;
+    margin-top: -80px;
+    margin-bottom: 30px;
+}
+
+.header-discription {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    width: 600px;
+    height: 141px;
+    flex-shrink: 0;
+}
+
+.button-container {
+    display: flex;
+}
+
+.header-button {
+    display: flex;
+    box-sizing: border-box;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    width: 305.679px;
+    height: 81px;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+    line-height: normal;
+    flex-shrink: 0;
+    border-radius: 59px;
+    background: #D11D65;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.play-button {
+    background: url("../../../public/images/play1.jpg"), lightgray 50% / contain no-repeat;
+    width: 81px;
+    height: 81px;
+    flex-shrink: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.play-button-text {
+    width: 137px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #4D4C4C;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 950px;
+}
+
+.button-img {
+    flex-shrink: 0;
+    border-radius: 68px;
+    position: relative;
+}
+
+.button-title {
+    position: absolute;
+    z-index: 1;
+    top: 325px;
+    left: 75px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    z-index: 12;
+}
+
+.button-text {
+    width: 263px;
+    color: #FFF;
+    font-family: Girloy;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.arrow-image {
+    background-color: transparent;
+    border: none;
+}
+
+.button-image {
+    width: 300px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 68px;
+    margin-top: 100px;
+    margin-left: 70px;
+    position: relative;
+}
+
+.social-medias-text {
+    color: #000;
+    text-align: left;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 30px 0;
+}
+
+.button-youtube {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    background: url("../../../public/images/youtube1.jpg"), lightgray 50% / cover no-repeat;
+    display: inline-block;
+    margin: 10px;
+}
+
+.button-zieit {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    background: url("../../../public/images/zieit2.jpg"), lightgray 50% / cover no-repeat;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+.button-share {
+    display: flex;
+    align-items: center;
+}
+
+
+.header-order {
+    display: flex;
+}
+
+.header-order-button {
+    padding-right: 100px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-card-blackberry {
+    position: absolute;
+    left: -120px;
+    bottom: 115px;
+    z-index: 1;
+}
+
+.header-card-strawberry {
+    position: absolute;
+    left: -40px;
+    top: -99px;
+    z-index: 11;
+}
+
+.header-card-malina {
+    position: absolute;
+    right: -64px;
+    bottom: -24px;
+    z-index: 9;
+}
+
+.header-card-img-2 {
+    position: relative;
+    z-index: 10;
+
+}

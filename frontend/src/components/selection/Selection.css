@@ -1,0 +1,114 @@
+.selection {
+    background: linear-gradient(357deg, #FFF 5.41%, rgba(255, 255, 255, 0.00) 52.34%), linear-gradient(181deg, #FFF 1.43%, rgba(255, 255, 255, 0.00) 25.43%), linear-gradient(0deg, rgba(255, 255, 255, 0.72) 0%, rgba(255, 255, 255, 0.72) 100%), url("../../../public/images/image3.jpg"), lightgray 50% / cover no-repeat;
+    height: 1963px;
+    flex-shrink: 0;
+}
+
+.selection-title {
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170px;
+    margin-bottom: 250px;
+}
+
+
+.cards {
+    display: flex;
+    object-position: center;
+    justify-content: space-evenly;
+}
+
+
+.card {
+    position: relative; 
+    padding: 20px;
+    text-align: center;
+}
+
+.card div {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.strawberry {
+    box-sizing: border-box;
+    width: 145px;
+    height: 145px;
+    transform: rotate(-33.317deg);
+    flex-shrink: 0;
+
+}
+
+.picture {
+    width: 370px;
+    flex-shrink: 0;
+    border-radius: 40px 40px 20px 20px;
+    margin-bottom: -60px;
+}
+
+.strawberry-sel {
+    position: absolute;
+    z-index: 1;
+    left: -80px;
+    top: -40px;
+}
+
+.blackberry-sel {
+    position: absolute;
+    z-index: 1;
+    top: -60px;
+    right: -100px;
+}
+
+.title {
+    width: 310px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Gilroy;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115.5px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.description {
+    width: 100%;
+    flex-shrink: 0;
+    color: #3E3E3E;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.5px;
+    margin: auto;
+}
+
+.order-button {
+    display: flex;
+    box-sizing: border-box;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    width: 305.679px;
+    height: 81px;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+    line-height: normal;
+    flex-shrink: 0;
+    border-radius: 59px;
+    background: #D11D65;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 100px auto;
+}

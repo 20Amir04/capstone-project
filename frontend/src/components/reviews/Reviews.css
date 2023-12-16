@@ -1,0 +1,333 @@
+.reviews-comp {
+    background-image: url("../../../public/images/background4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2520px;
+}
+
+
+.rev-title-wrap {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 218px;
+}
+
+.rev-title {
+    color: #000;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104px;
+}
+
+
+.rev-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.rev-container img {
+    margin: 0 30px;
+}
+
+.rev-container p {
+    max-width: 465px;
+    min-width: 150px;
+}
+
+
+.rev-card-main {
+    display: flex;
+    justify-content: space-between;
+    height: 605px;
+    border-radius: 68px;
+    background: #FFF;
+    box-shadow: 0px 4px 64px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    align-items: center;
+}
+
+.rev-card-secondary {
+    display: flex;
+    height: 459px;
+    border-radius: 68px;
+    background: linear-gradient(0deg, rgba(31, 31, 31, 0.60) 0%, rgba(31, 31, 31, 0.60) 100%), #FFF;
+    box-shadow: 0px 4px 64px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    align-items: center;
+}
+
+
+.rev-card-secondary img {
+    border-radius: 252px;
+    mask-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+}
+
+.rev-card-secondary-left {
+    position: relative;
+    left: -200px;
+}
+
+
+.rev-card-secondary-right {
+    position: relative;
+    left: 250px;
+}
+
+.rev-card-icon {
+    color: #D11D65;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39px;
+    position: relative;
+    top: 176px;
+    left: 40px;
+}
+
+.rev-card-icon-secondary {
+    color: #D11D65;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39px;
+    position: relative;
+    top: 116px;
+    left: 290px;
+    z-index: 2;
+}
+
+.rev-card-title {
+    width: 465px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39px;
+}
+
+.rev-card-comment {
+    color: #000;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 39px; 
+}
+
+.rev-card-name {
+    color: #000;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 39px; 
+}
+
+.rev-card-city {
+    color: #545454;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px; 
+}
+
+.button-cont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 64px;
+}
+
+.arrow-slide {
+position: absolute;
+z-index: 1;
+width: 72px;
+stroke-width: 3px;
+stroke: #000;
+left: 30px;
+top: 55px;
+}
+
+.button-slide {
+    box-sizing: border-box;
+    border-radius: 80px;
+    border: none;
+    background-color: #D11D65;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.40));
+    width: 129px;
+    height: 129px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.make-an-order {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 300px;
+}
+
+.rasberry-rev {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.order-card {
+    z-index: 1;
+    width: 1164.266px;
+    height: 482.518px;
+    flex-shrink: 0;
+    border-radius: 68px;
+    background: #FFF;
+    box-shadow: 0px 4px 64px 0px rgba(0, 0, 0, 0.25);
+    padding: 80px;
+}
+
+.blackberry-rev {
+    position: absolute;
+    bottom: 50%;
+    right: 7%;
+}
+
+.card-title {
+    align-items: center;
+    color: #000;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px;
+    padding: 20px; 
+}
+
+.card-text {
+    color: #000;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+}
+
+.get-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.input-number {
+    position: relative;
+    display: flex;
+    width: 504px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    background: #EDEDED;
+    top: 70px;
+    left: 7%;
+    padding: 0 120px;
+}
+
+.circle {
+    position: absolute;
+    z-index: 1;
+    width: 95px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    background: #D4D4D4;
+    transform: translateX(-50%);
+    left: 45px;
+}
+
+.call-icon {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 8.5%;
+    transform: translate(-50%, -50%);
+}
+
+#number {
+    position: relative;
+    left: -50px;
+    width: 440px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #EDEDED;
+    border-radius: 33px;
+    padding: 43px;
+    color: black;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 39px;  
+}
+
+
+.button-rev-order {
+    box-sizing: border-box;
+    border: none;
+    width: 314px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    background: #D11D65;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    color: #000;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px; 
+    text-decoration: none;
+}
+
+.formlabel {
+    width: 50%;
+    margin-top: 90px;
+    text-align: center;
+    color: red;
+}
+
+.submit-number.active {
+    display: block;
+    width: 50%;
+    margin-top: 90px;
+    text-align: center;
+    color: green;
+}
+
+.submit-number {
+    display: none;
+}

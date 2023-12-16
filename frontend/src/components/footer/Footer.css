@@ -1,0 +1,42 @@
+.footer {
+    position: relative;
+    top: 680px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-links a {
+   justify-content: space-between;
+  }
+  
+  .footer-link {
+    margin-left: 2%;
+    color: #7C7C7C;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 39px; 
+    text-decoration: none;
+  }
+
+  .footer-contact {
+    color: #7C7C7C;
+    justify-content: space-between;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 39px; 
+  }
+  
+  .footer-contact a {
+    color: #7C7C7C;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 39px; 
+    text-decoration: none;
+  }
+  
