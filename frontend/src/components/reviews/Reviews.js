@@ -40,7 +40,7 @@ function Reviews() {
         setCards(tmp);
     }
 
-    let isValid = /^(\+\d{10,12}|\d{10,12})$/;
+    let isValid = /^(\+\d{10,13}|\d{10,13})$/;
 
 
 
@@ -144,7 +144,7 @@ function Reviews() {
                                 <div>
                                     <div className="circle"></div>
                                     <img src="/images/call.png" alt="" className="call-icon" />
-                                    <input type="text" id="number" name="number" placeholder="+12508882588"
+                                    <input type="text" id="number" name="number" placeholder="+380508882588"
                                         onChange={handleChange}
                                         onBlur={handleBlur}
                                         value={values.number}
